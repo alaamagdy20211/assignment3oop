@@ -24,7 +24,7 @@
             #region q2 part2
             Person[] people = new Person[3];
 
-           
+
             for (int i = 0; i < 3; i++)
             {
                 Console.Write("Enter name: ");
@@ -34,7 +34,7 @@
                 people[i].Age = int.Parse(Console.ReadLine());
             }
 
-           
+
             Person oldestPerson = people[0];
 
             foreach (var person in people)
@@ -45,9 +45,9 @@
                 }
             }
 
-         
+
             Console.WriteLine($"The oldest person is {oldestPerson.Name} with age {oldestPerson.Age}");
         }
         #endregion
     }
-    }
+}
